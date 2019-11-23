@@ -1,0 +1,1019 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Jewellery Shoppe">
+<meta name="author" content="Jewellery Shoppe">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+<title>Jewellery Shoppe</title>
+<!--all-->
+<link rel="stylesheet" type="text/css" href="assets/css/default.css" media="all" />
+<!--all-->
+<!--animate-->
+<link rel="stylesheet" href="assets/css/animate.css">
+<!--animate-->
+<!--library js-->
+<script src="assets/js/jquery.js"></script>
+<!--library js-->
+</head>
+<body>
+<!--modal popup-->
+<div class="modal fade" id="myModalHorizontal" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" 
+   data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Login</h4>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control"  placeholder="Email"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="password" class="form-control"  placeholder="Password"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default button-1">Sign in</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <div class="boder3"></div>
+              <p><a href="" data-toggle="modal" data-target="#myModalHorizontal3">Create New Account</a>&nbsp; |&nbsp;<a href="#" data-toggle="modal" data-target="#myModalHorizontal4">Forgot Password</a></p>
+              <div class="boder3"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Modal Footer -->
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModalHorizontal2" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" 
+   data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Register</h4>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control"  placeholder="Email"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="password" class="form-control"  placeholder="Password"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="password" class="form-control"  placeholder="Confirm password"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default button-1">Create a Account</button>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <div class="boder3"></div>
+              <p><a href="" data-toggle="modal" data-target="#myModalHorizontal3">Create New Account</a>&nbsp; |&nbsp;<a href="#" data-toggle="modal" data-target="#myModalHorizontal4">Forgot Password</a></p>
+              <div class="boder3"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Modal Footer -->
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModalHorizontal3" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" 
+   data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Create New Account</h4>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control"  placeholder="Email"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="password" class="form-control"  placeholder="Password"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="password" class="form-control"  placeholder="Confirm password"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default button-1">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Modal Footer -->
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="myModalHorizontal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" 
+   data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Forgot Password</h4>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input type="email" class="form-control"  placeholder="Email"/>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button type="submit" class="btn btn-default button-1">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <!-- Modal Footer -->
+    </div>
+  </div>
+</div>
+<!--sidebar-->
+<div id="push_sidebar">
+  <div class="right-logo"><a href="index.html"><img  src="assets/images/logo-right.png" class="img-fluid" alt="jewellery" title="jewellery"></a></div>
+  <ul class="list-unstyled">
+    <li class="nav-item dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home Page</a>
+      <ul class="list-unstyled dropdown-menu">
+        <li><a href="index.html">Home Page 1</a></li>
+        <li><a href="home-2.html">Home Page 2</a></li>
+        <li><a href="home-3.html">Home 3 Sticky header</a></li>
+        <li><a href="home-4.html">Home 4 Left Side Menu</a></li>
+        <li><a href="mega-menu.html">Home 5 Mega Menu</a></li>
+      </ul>
+    </li>
+    <li><a href="about-us.html">About</a></li>
+    <li class="nav-item dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+      <ul class="list-unstyled dropdown-menu">
+        <li><a href="product.html">Product 1</a></li>
+        <li><a href="product-2.html">Product 2</a></li>
+        <li><a href="product-3.html">Product 3</a></li>
+        <li><a href="product.html">View All</a></li>
+      </ul>
+    </li>
+    <li><a href="blog.html">Blog</a></li>
+    <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+      <ul class="list-unstyled dropdown-menu">
+        <li><a href="404.html">404</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="coming-soon.html">Coming soon</a></li>
+        <li><a href="terms-and-conditions.html">Terms & Condition</a></li>
+      </ul>
+    </li>
+    <li><a href="contact-us.html">Contact us</a></li>
+    <li class="sign-in">
+      <input type="button" value="sign in" data-toggle="modal" data-target="#myModalHorizontal">
+      \
+      <input  value="sign Up"  type="button" data-toggle="modal" data-target="#myModalHorizontal2">
+    </li>
+  </ul>
+  <br>
+  <div class="social-network social-circle text-right"><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></div>
+</div>
+<!--nav-->
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="navbar-header"> <a class="navbar-brand" href="index.html"> <img class="img-fluid" alt="" title=""  src="assets/images/logo.png"> </a> </div>
+  <span class="nav_trigger"><i class="fa fa-navicon"></i></span>
+  <ul class="navbar-nav2">
+    <li class="search-div">
+      <div id="sb-search" class="sb-search">
+        <form>
+          <input class="sb-search-input"  placeholder="Search" type="text" value="" name="search" id="search">
+          <input class="sb-search-submit" type="submit" value="">
+          <span class="sb-icon-search"></span>
+        </form>
+      </div>
+    </li>
+    <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="round">5</span></a> </li>
+  </ul>
+</nav>
+<div id="wrapper">
+  <!--page heading-->
+  <section>
+    <div class="inner-bg">
+      <div class="inner-head wow fadeInDown">
+        <h3>Product</h3>
+      </div>
+    </div>
+  </section>
+  <!--container-->
+  <div class="container">
+    <div class="shop-in">
+      <!--breadcrumbs -->
+      <div class="col-md-12">
+        <div class="bread2">
+          <ul>
+            <li><a href="index.html">HOME</a>
+            <li>/</li>
+            <li>SHOP</li>
+          </ul>
+        </div>
+      </div>
+      <div class="clearfix"> </div>
+      <div class="row">
+        <!--left-side-->
+        <div class="col-lg-3 col-md-12 col-sm-12">
+          <button data-toggle="collapse" data-target="#div-open" class="menu-icon"></button>
+          <div class="clearfix"></div>
+          <div id="div-open" class="collapse  wow fadeIn">
+            <div class="row">
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="cat-div  wow fadeIn">
+                  <h2>Category</h2>
+                  <div class="Category">
+                    <div id="accordion">
+                      <div class="card-header"> <a class="card-link" data-toggle="collapse" href="#collapseOne"> PRODUCT TYPE </a> </div>
+                      <div id="collapseOne" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <ul class="m-0 p-0">
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Bangle <span>(14)</span> </label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Bead <span>(28)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Bracelet <span>(91)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Charm <span>(122)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Coin <span>(1)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Cufflinks <span>(7) </span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Earrings <span>(276) </span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Jewellery <span>Set (4) </span></label>
+                            </li>
+                            <li> 
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Locket <span>(1)</span> </label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Necklace <span>(62)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Pendant <span>(234)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Ring <span>(455)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Ring Set <span>(1)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Watch <span>(1)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-header"> <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">COLLECTIONS </a> </div>
+                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <ul class="m-0 p-0">
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Amber <span>(1)</span> </label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Garnet <span>(5)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-header"> <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree"> BRAND <span>(3)</span> </a> </div>
+                      <div id="collapseThree" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <ul class="m-0 p-0">
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Pre-Owned <span>(8)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              TJH Collection <span>(10)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-header"> <a class="collapsed card-link" data-toggle="collapse" href="#collapse1">MATERIAL</a> </div>
+                      <div id="collapse1" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <ul class="m-0 p-0">
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Sterling Silver <span>(1)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              14ct Yellow Gold <span>(10)</span></label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              9ct Yellow Gold <span>(12)</span></label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="card-header"> <a class="collapsed card-link" data-toggle="collapse" href="#collapse4">STONE TYPE</a> </div>
+                      <div id="collapse4" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <ul class="m-0 p-0">
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Amber (1)</label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              Garnet (1)</label>
+                            </li>
+                            <li>
+                              <label>
+                              <input type="checkbox"   name="option2" value="something">
+                              No Stone</label>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="cat-div  wow fadeIn">
+                  <h2>FILTER BY PRICE</h2>
+                  <label for="amount" class="mt-3 mb-3">Price range:</label>
+                  <div id="slider-range"></div>
+                  <p class="mt-3 mb-2 text-center">
+                    <input type="text" id="amount" readonly style="border:0; color:#f18a1a; font-weight:bold; text-align:center">
+                  </p>
+                  <div class="pull-right">
+                    <input   type="button" class="filter2" value="FILTER">
+                  </div>
+                  <div class="clearfix"> </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="cat-div  wow fadeIn">
+                  <h2>HOT DEALS</h2>
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                      <div class="carousel-item active text-center">
+                        <div class="row">
+                          <div class="col-md-12 col-sm-5"><img alt="" title=""  src="assets/images/left-product.jpg" class="img-fluid"></div>
+                          <div class="col-md-12 col-sm-7">
+                            <div class="no-div">
+                              <ul>
+                                <li>
+                                  <h5>120</h5>
+                                  <span>Days </span> </li>
+                                <li>
+                                  <h5>20</h5>
+                                  <span>HRS</span> </li>
+                                <li>
+                                  <h5>36</h5>
+                                  <span>MINS</span> </li>
+                                <li>
+                                  <h5>60</h5>
+                                  <span>Sec</span> </li>
+                              </ul>
+                              <div class="clearfix"></div>
+                            </div>
+                            <div class="product-name">
+                              <h3>Jewellery Name</h3>
+                            </div>
+                            <div class="rate-css"><span>$600.00</span>&nbsp;&nbsp; <samp class="text-de">$850.00</samp></div>
+                            <div><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item  text-center">
+                        <div class="row">
+                          <div class="col-md-12 col-sm-5"><img alt="" title=""  src="assets/images/left-product.jpg" class="img-fluid"></div>
+                          <div class="col-md-12 col-sm-7">
+                            <div class="no-div">
+                              <ul>
+                                <li>
+                                  <h5>120</h5>
+                                  <span>Days </span> </li>
+                                <li>
+                                  <h5>20</h5>
+                                  <span>HRS</span> </li>
+                                <li>
+                                  <h5>36</h5>
+                                  <span>MINS</span> </li>
+                                <li>
+                                  <h5>60</h5>
+                                  <span>Sec</span> </li>
+                              </ul>
+                              <div class="clearfix"></div>
+                            </div>
+                            <div class="product-name">
+                              <h3>Jewellery Name</h3>
+                            </div>
+                            <div class="rate-css"><span>$600.00</span>&nbsp;&nbsp; <samp class="text-de">$850.00</samp></div>
+                            <div><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Controls -->
+                    <a class="left arrow-left" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right arrow-right" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="cat-div  wow fadeIn">
+                  <h2>Special offers</h2>
+                  <div id="carousel-example-generic3" class="carousel slide" data-ride="carousel">
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="product-scroll">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-2 col-4"><img  src="assets/images/scroll-2.jpg" alt="" title="" class="img-fluid"></div>
+                          <div class="col-md-6 col-sm-9 col-8">
+                            <h3>Product name</h3>
+                            <div> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                            <h4>$600.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="product-scroll">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-2 col-4"><img  src="assets/images/scroll-2.jpg" class="img-fluid" alt="" title=""></div>
+                          <div class="col-md-6 col-sm-9 col-8">
+                            <h3>Product name</h3>
+                            <div> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                            <h4>$600.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="product-scroll">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-2 col-4"><img  src="assets/images/scroll-2.jpg" class="img-fluid" alt="" title=""></div>
+                          <div class="col-md-6 col-sm-9 col-8">
+                            <h3>Product name</h3>
+                            <div> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""> <img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                            <h4>$600.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="product-scroll">
+                        <div class="row">
+                          <div class="col-md-6 col-sm-2 col-4"><img  src="assets/images/scroll-2.jpg" alt="" title="" class="img-fluid"></div>
+                          <div class="col-md-6 col-sm-9 col-8">
+                            <h3>Product name</h3>
+                            <div><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str1.jpg" alt="" title=""><img  src="assets/images/str2.jpg" alt="" title=""></div>
+                            <h4>$600.00</h4>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Controls -->
+                  <a class="left arrow-left" href="#carousel-example-generic3" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> <a class="right arrow-right" href="#carousel-example-generic3" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> </div>
+                </div>
+              </div>
+              <div class="col-lg-12 col-md-6 col-sm-12">
+                <div class="cat-div  wow fadeIn">
+                  <h2>Download our app</h2>
+                  <div class="download-our"> <a href="#" class="pull-left"><img  src="assets/images/app.png" alt="" title="" class="img-fluid"></a> <a href="#" class="pull-left"><img  src="assets/images/google-play.png" alt="" title="" class="img-fluid"></a>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clearfix"> </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <!--right-side-->
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-6 select-p">
+              <select class="selectpicker select-1" data-style="btn-primary">
+                <option>Newest first</option>
+                <option>Newest first</option>
+                <option>Newest first</option>
+              </select>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 bread">
+              <div class="breadcrumbs">
+                <ul>
+                  <li><a href="" class="active">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product1.jpg" alt="" title="" class="img-fluid img-boder-css"></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00 </span>&nbsp;<span class="text-0">$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title="" ></a></div>
+                </div>
+                <div><img  src="assets/images/products/product2.jpg" alt="" title="" class="img-fluid img-boder-css"></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img alt="" title=""  src="assets/images/products/str2.jpg"> <img alt="" title=""  src="assets/images/products/str3.jpg"></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product3.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product4.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product5.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product6.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product7.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product8.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product9.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product1.jpg" alt="" title="" class="img-fluid img-boder-css"></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00 </span>&nbsp;<span class="text-0">$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title="" ></a></div>
+                </div>
+                <div><img  src="assets/images/products/product2.jpg" alt="" title="" class="img-fluid img-boder-css"></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img alt="" title=""  src="assets/images/products/str2.jpg"> <img alt="" title=""  src="assets/images/products/str3.jpg"></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product3.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product7.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product8.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg  wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product9.jpg" class="img-fluid img-boder-css" alt="" title=""></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 thum-mrg wow fadeIn">
+              <div class="col-lg-12 padd0">
+                <div class="product-hover">
+                  <div><a href="product-detail2.html"> <img  src="assets/images/magnifier.svg"  width="20" height="20" alt="" title=""></a> &nbsp;&nbsp; <a href="cart.html"> <img  src="assets/images/add-to-cart.svg"  width="25" height="25" alt="" title=""></a></div>
+                </div>
+                <div><img  src="assets/images/products/product1.jpg" alt="" title="" class="img-fluid img-boder-css"></div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="clearfix"></div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12 name-pro">Jewellery Name</div>
+                <div class="clearfix"></div>
+                <div class="col-md-6 col-sm-6 name-pro"><span>$ 36.00 </span>&nbsp;<span class="text-0">$ 36.00</span></div>
+                <div class="col-md-6 col-sm-6 text-right"><img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str2.jpg" alt="" title=""> <img  src="assets/images/products/str3.jpg" alt="" title=""></div>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+          <hr>
+          <div class="breadcrumbs">
+            <ul>
+              <li><a href="" class="active">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <!--footer-->
+  <div class="footer-css">
+    <div class="newsletter wow fadeIn">
+      <div class="container">
+        <div class="p-color-bg">
+          <div class="text float-left"> <i class="fa fa-envelope" aria-hidden="true"></i>
+            <h2><span>Subscribe</span> Newsletter</h2>
+            <p>Get all latesr news and  Offer by subcribing to our Newsletter</p>
+            <div class="clearfix"></div>
+          </div>
+          <!-- /.text -->
+          <div class="float-right">
+            <form method="post" id="subsForm" onSubmit="return ajaxmailsubscribe();">
+              <input placeholder="Your Email Address" type="email" name="subsemail" id="subsemail">
+              <button class="theme-button"  type="button" value="SUBSCRIBE" onClick="return ajaxmailsubscribe();"> <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+              <!--<input class="theme-button"/><i class="fa fa-angle-right" aria-hidden="true"></i>-->
+              <!--<button class="theme-button"><i class="fa fa-angle-right" aria-hidden="true"></i></button>-->
+            </form>
+          </div>
+          <!-- /.float-right -->
+          <div class="clearfix"></div>
+        </div>
+        <!-- /.bg -->
+      </div>
+      <!-- /.container -->
+    </div>
+    <div class="clearfix"></div>
+    <div class="footer-in">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3  wow fadeIn" data-wow-delay=".1s">
+            <div class="logo-f"><img  src="assets/images/logo-2.png" alt="" title="" ></div>
+            <div class="about-b">
+              <div class="footer-text">
+                <p>Es ist ein lang erwiesener Fakt, dass ein Leser vom Text abgelenkt wird, wenn er sich ein Layout ansieht. Der Punkt, Lorem Ipsum zu nutzen, ist, dass es mehr oder weniger.</p>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <ul class="social2">
+              <li> Follow us on : </li>
+              <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+            <br>
+          </div>
+          <div class="col-md-3 col-sm-3 link-footer  wow fadeIn" data-wow-delay=".2s">
+            <h2>Quick Links</h2>
+            <ul class="pull-left">
+              <li><a href="about-us.html"> <i class="fa fa-stop" aria-hidden="true"></i> About</a></li>
+              <li><a href="product.html"><i class="fa fa-stop" aria-hidden="true"></i> Shop Now</a></li>
+              <li><a href="blog.html"><i class="fa fa-stop" aria-hidden="true"></i> Blog</a></li>
+              <li><a href="terms-and-conditions.html"><i class="fa fa-stop" aria-hidden="true"></i> Terms & Condition</a></li>
+              <li><a href="privacy.html"><i class="fa fa-stop" aria-hidden="true"></i> Privacy</a></li>
+              <li><a href="faq.html"><i class="fa fa-stop" aria-hidden="true"></i> FAQ</a></li>
+              <li><a href="contact-us.html"><i class="fa fa-stop" aria-hidden="true"></i> Contact Us</a></li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-3 col-sm-3  wow fadeIn" data-wow-delay=".3s">
+            <h2>INSTAFEED</h2>
+            <div class="text-center"><img  src="assets/images/instagram.png" alt="" title="" class="img-fluid"></div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-3 col-sm-3 footer-address  wow fadeIn" data-wow-delay=".4s">
+            <h2>Get In Touch</h2>
+            <ul>
+              <li><i class="fa fa-map-marker" aria-hidden="true"></i> 385 "SHUBHAM" NEW ADARSH COLONY Near
+                MR4 Road, I/F Gajannan Park </li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> 0761-4031437</li>
+              <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:jewellery@gmail.com">jewellery@gmail.com</a></li>
+              <li><i class="fa fa-clock-o" aria-hidden="true"></i> 9:00pm - 5:00pm<br>
+                Sunday Closed </li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="copyright">
+      <div class="footer-in">
+        <div class="pull-left"> ©  2018. <a href="index.html">Jewellery Shoppe</a> </div>
+        <div class="pull-right"> Lovingly Crafted By <a href="http://srgit.com/" target="_blank">SRGIT</a> </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<p data-toggle="modal" class="no-margin" data-target="#myModal" id="model2"></p>
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog"  aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span> <span class="sr-only">Close</span> </button>
+        <h4 class="modal-title">&nbsp;</h4>
+      </div>
+      <!-- Modal Body -->
+      <div class="modal-body">
+        <h1 class="modal-title text-center">Thank You</h1>
+        <form class="form-horizontal">
+          <h4 class="text-center">We will get back to you as soon as possible.</h4>
+        </form>
+      </div>
+      <!-- Modal Footer -->
+    </div>
+  </div>
+</div>
+<!--footer-->
+<!--themes js-->
+<script src="assets/js/ajax.js"></script>
+<script src="assets/js/formValidation.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<!--themes js-->
+<!--searchbar-Top Header-->
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/uisearch.js"></script>
+<!--searchbar-Top Header-->
+<!--wow animate-->
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/animate1.js"></script>
+<!--wow animate-->
+<link rel="stylesheet" href="assets/css/jquery-ui.css">
+<script src="assets/js/jquery-ui.js"></script>
+<!--all script-->
+<script src = "assets/js/all2.js"></script>
+<!--all script-->
+<!--scrolltop-->
+<script  src="assets/js/scrolltopcontrol.js"></script>
+<!--scrolltop-->
+
+<!--slider-range-->
+<script src = "assets/js/slider-range.js"></script>
+<!--slider-range-->
+
+</body>
+</html>
