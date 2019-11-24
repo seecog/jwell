@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-lg-12">
+        <a class="btn btn-primary float-right" href="/admin/addcategory">Add Category</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <table style="width:100%">
+            <th>Pic</th><th>Name</th>
+  {{#each data}}
+<tr>
+<td>
+    <img src= {{image}} width=70
+ height="70"></td><td>{{name}}</td>
+</tr>
+  {{/each}}
+        </table>
+    </div>
+</div>

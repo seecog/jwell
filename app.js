@@ -12,10 +12,32 @@ var adminRouter = require("./routes/admin/index");
 
 var app = express();
 
+//mongodb start
+var mongoose = require("mongoose");
+mongoose.connect("mongodb://localhost/jwelshop",function(err){
+if(err){
+  throw new Error(err);
+}
+})
+//mongo db end
+
+//import models start
+var CategoryModel=require("./models/category.model");
+//import models end
+
+//layout start
+var hbs = require( 'express-handlebars');
+app.set('view engine', 'hbs');
+app.engine( 'hbs', hbs( {
+  extname: 'hbs',
+  defaultView: 'default',
+  layoutsDir: __dirname + '/views/admin/layouts/',
+  partialsDir: __dirname + '/views/admin/partials/'
+}));
+//layout end
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
-hbs.registerPartials(__dirname + '/views/admin/partials');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
